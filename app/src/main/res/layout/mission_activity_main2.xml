@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_color"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/ads_view"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:background="@drawable/ic_bg_top">
+
+        <ImageView
+            android:id="@+id/iv_space"
+            android:layout_width="200dp"
+            android:layout_height="250dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/ic_action_top_image"/>
+
+        <RelativeLayout
+            android:id="@+id/rl_native"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="60dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <RelativeLayout
+                android:id="@+id/rl_get_start"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/ic_btn_bg">
+
+                <ImageView
+                    android:id="@+id/iv_frame_icon"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/ic_action_frame_icon" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_toLeftOf="@+id/iv_frame_icon"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/regular"
+                            android:text="Effects"
+                            android:textColor="@color/yellow"
+                            android:textSize="14sp" />
+
+                        <Space
+                            android:layout_width="2dp"
+                            android:layout_height="wrap_content" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/regular"
+                            android:text="for Instagram"
+                            android:textColor="@color/white"
+                            android:textSize="14sp" />
+
+                    </LinearLayout>
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/semibold"
+                        android:text="Get Started"
+                        android:textColor="@color/white"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp">
+
+                <RelativeLayout
+                    android:id="@+id/rl_album"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/ic_btn_bg">
+
+                    <ImageView
+                        android:id="@+id/iv_start_icon"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/ic_action_album"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toRightOf="@+id/iv_start_icon"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="My Album"
+                            android:textSize="14sp"
+                            android:textColor="@color/white"
+                            android:fontFamily="@font/semibold"/>
+
+                        <Space
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="See your creation"
+                            android:textSize="10sp"
+                            android:textColor="@color/white"
+                            android:fontFamily="@font/regular"/>
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+                <Space
+                    android:layout_width="15dp"
+                    android:layout_height="match_parent"/>
+
+                <RelativeLayout
+                    android:id="@+id/rl_wifi_calling"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/ic_btn_bg">
+
+                    <TextView
+                        android:layout_width="50dp"
+                        android:layout_height="15dp"
+                        android:layout_gravity="right"
+                        android:layout_marginRight="-17dp"
+                        android:background="@color/yellow"
+                        android:gravity="center"
+                        android:rotation="40"
+                        android:text="AD"
+                        android:textColor="@color/black"
+                        android:textSize="8dp"
+                        android:fontFamily="@font/semibold"
+                        android:layout_alignParentRight="true"/>
+
+                    <ImageView
+                        android:id="@+id/iv_wifi_calling"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/ic_action_wifi_calling"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:orientation="vertical"
+                        android:layout_toRightOf="@+id/iv_wifi_calling">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="WiFi Calling"
+                            android:textSize="14sp"
+                            android:textColor="@color/white"
+                            android:fontFamily="@font/semibold"/>
+
+                        <Space
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Free Phone Calls"
+                            android:textSize="10sp"
+                            android:textColor="@color/white"
+                            android:fontFamily="@font/regular"/>
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_banner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

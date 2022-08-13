@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="txt_color">#272634</color>
+    <color name="colorAccent">#ff4081</color>
+    <color name="colorPrimary">#0075ff</color>
+    <color name="colorPrimaryDark">#0075ff</color>
+    <color name="color_background">#eeeff4</color>
+    <color name="inactive_color">#272634</color>
+    <color name="dot_dark_screen3">#bfbfbf</color>
+    <color name="black_50">#aeaeae</color>
+    <color name="black_tran">#ffcfcfcf</color>
+    <color name="active_color">#f4557d</color>
+
+    <color name="color0">#fff44336</color>
+    <color name="color00">#fff44336</color>
+    <color name="color1">#ffe91e63</color>
+    <color name="color10">#ff8bc34a</color>
+    <color name="color11">#ffcddc39</color>
+    <color name="color111">#ffffff</color>
+    <color name="color12">#ffffeb3b</color>
+    <color name="color13">#ffffc107</color>
+    <color name="color14">#ffff9800</color>
+    <color name="color15">#ffff5722</color>
+    <color name="color2">#ff9c27b0</color>
+    <color name="color3">#ff673ab7</color>
+    <color name="color4">#ff3f51b5</color>
+    <color name="color5">#ff2196f3</color>
+    <color name="color6">#ff03a9f4</color>
+    <color name="color7">#ff00bcd4</color>
+    <color name="color8">#ff009688</color>
+    <color name="color9">#ff4caf50</color>
+    <color name="tran">#00000000</color>
+    <color name="main">#ffee3d7e</color>
+    <color name="white_tran_30">#4dffffff</color>
+    <color name="main_50">#80ee3d7e</color>
+    <color name="windowBackground">#1c1c1c</color>
+    <color name="overlay">#aa1c1c1c</color>
+    <color name="black_trans_layout">#da000000</color>
+    <color name="orange">#000000</color>
+
+    <color name="ucrop_color_active_aspect_ratio">@color/ucrop_color_blaze_orange</color>
+    <color name="ucrop_color_active_controls_color">@color/ucrop_color_blaze_orange</color>
+    <color name="ucrop_color_black">#000</color>
+    <color name="ucrop_color_blaze_orange">#f4557d</color>
+    <color name="ucrop_color_crop_background">@color/ucrop_color_black</color>
+    <color name="ucrop_color_default_crop_frame">#ffffff</color>
+    <color name="ucrop_color_default_crop_grid">#80ffffff</color>
+    <color name="ucrop_color_default_dimmed">#8c000000</color>
+    <color name="ucrop_color_default_logo">#4f212121</color>
+    <color name="ucrop_color_ebony_clay">#20242f</color>
+    <color name="ucrop_color_heather">#b3bece</color>
+    <color name="ucrop_color_inactive_aspect_ratio">@color/ucrop_color_ebony_clay</color>
+    <color name="ucrop_color_inactive_controls_color">@color/ucrop_color_heather</color>
+    <color name="ucrop_color_progress_wheel_line">@color/ucrop_color_ebony_clay</color>
+    <color name="ucrop_color_statusbar">#f5f5f5</color>
+    <color name="ucrop_color_toolbar">@color/ucrop_color_white</color>
+    <color name="ucrop_color_toolbar_widget">@color/ucrop_color_black</color>
+    <color name="ucrop_color_white">#fff</color>
+    <color name="ucrop_color_widget">@color/ucrop_color_black</color>
+    <color name="ucrop_color_widget_active">@color/ucrop_color_white</color>
+    <color name="ucrop_color_widget_background">@color/ucrop_color_ebony_clay</color>
+    <color name="ucrop_color_widget_rotate_angle">@color/ucrop_color_ebony_clay</color>
+    <color name="ucrop_color_widget_rotate_mid_line">@color/ucrop_color_blaze_orange</color>
+    <color name="ucrop_color_widget_text">@color/ucrop_color_blaze_orange</color>
+
+    <color name="main_color">#333A43</color>
+    <color name="yellow">#FFAA2A</color>
+    <color name="light_blue">#E2EFFF</color>
+    <color name="appColor">#FFC107</color>
+
+</resources>
